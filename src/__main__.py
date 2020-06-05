@@ -4,7 +4,7 @@ import logging
 from datetime import datetime
 import requests
 import json
-import config
+from src import config
 def api_call():
     url_var = config.url
     #print(url_var)

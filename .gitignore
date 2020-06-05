@@ -1,1 +1,4 @@
-MyVirtualEnv
+build
+dist
+RealTimeApp.egg-info
+pipfile
