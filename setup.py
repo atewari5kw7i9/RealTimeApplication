@@ -5,6 +5,6 @@ setuptools.setup(
     version="1.0.0",
     packages=setuptools.find_packages(),
     description="RealTimeApi",
-    entry_points={'console_scripts': ['api-util = src.__main__:api_call']}
+    entry_points={'console_scripts-hotfix': ['api-util = src.__main__:api_call']}
 )
 print(setuptools.find_packages())
